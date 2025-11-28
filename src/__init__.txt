@@ -1,0 +1,5 @@
+curl -X POST http://localhost:8000   -H "Content-Type: application/json"   -d '{
+"email": "23f2005381@ds.study.iitm.ac.in",
+"secret": "IS76ev852n3kL0pq",
+"url": "https://tds-llm-analysis.s-anand.net/demo"
+}'
