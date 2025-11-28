@@ -28,7 +28,7 @@ mypy
 email-validator
 aiofiles
 aiohttp
-beautifulsoup
+beautifulsoup4
 chardet
 fastapi
 fitz
