@@ -3,73 +3,26 @@
 # =============================================================================
 
 # Web Framework
-fastapi==0.109.0
 uvicorn[standard]==0.27.0
-pydantic==2.5.3
-pydantic-settings==2.1.0
 
 # HTTP & Async
-aiohttp==3.9.1
 httpx==0.26.0
 requests==2.31.0
-
-# Browser Automation
-playwright==1.41.0
-
-# LLM & AI
-openai==1.10.0
-
-# Data Processing
-pandas==2.1.4
-numpy==1.26.3
-openpyxl==3.1.2          # Excel support
 xlrd==2.0.1              # Old Excel format
-
-# PDF Processing
 PyMuPDF==1.23.8          # Fast PDF parser
-
-# HTML Processing
-beautifulsoup4==4.12.2
-lxml==5.1.0
-
-# OCR (Optional but recommended)
-pytesseract==0.3.10
-# easyocr==1.7.0         # Uncomment if needed
-
-# Image Processing
-Pillow==10.2.0
-
-# Statistical Analysis
 scipy==1.11.4
 scikit-learn==1.4.0
 statsmodels==0.14.1
-
 geopandas==0.14.2      # Uncomment if needed
 shapely==2.0.2
-
 networkx==3.2.1        # Uncomment if needed
-
 prophet==1.1.5         # Uncomment if needed
-
-# Visualization
-matplotlib==3.8.2
-
-# Utilities
 python-dotenv==1.0.0
-structlog==24.1.0
-tenacity==8.2.3          # Retry logic
-chardet==5.2.0           # Encoding detection
-
-# JSON Processing
-ijson==3.2.3             # Streaming JSON
-
-# Testing
 pytest==7.4.4
 pytest-asyncio==0.23.3
 pytest-cov==4.1.0
 httpx==0.26.0            # For testing FastAPI
 
-# Development
 black==23.12.1
 flake8==7.0.0
 mypy==1.8.0
