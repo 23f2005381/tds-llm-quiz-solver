@@ -31,7 +31,6 @@ aiohttp
 beautifulsoup4
 chardet
 fastapi
-fitz
 ijson
 lxml
 matplotlib
