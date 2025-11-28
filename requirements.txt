@@ -1,51 +1,50 @@
-# =============================================================================
+# 
 # FILE: requirements.txt
-# =============================================================================
+# 
 
 # Web Framework
-uvicorn[standard]==0.27.0
-
+uvicorn[standard]
 # HTTP & Async
-httpx==0.26.0
-requests==2.31.0
-xlrd==2.0.1              # Old Excel format
-PyMuPDF==1.23.8          # Fast PDF parser
-scipy==1.11.4
-scikit-learn==1.4.0
-statsmodels==0.14.1
-geopandas==0.14.2      # Uncomment if needed
-shapely==2.0.2
-networkx==3.2.1        # Uncomment if needed
-prophet==1.1.5         # Uncomment if needed
-python-dotenv==1.0.0
-pytest==7.4.4
-pytest-asyncio==0.23.3
-pytest-cov==4.1.0
-httpx==0.26.0            # For testing FastAPI
+httpx
+requests
+xlrd           # Old Excel format
+PyMuPDF     # Fast PDF parser
+scipy
+scikit-learn
+statsmodels
+geopandas   # Uncomment if needed
+shapely
+networkx       # Uncomment if needed
+prophet         # Uncomment if needed
+python-dotenv
+pytest
+pytest-asyncio
+pytest-cov
+httpx         # For testing FastAPI
 
-black==23.12.1
-flake8==7.0.0
-mypy==1.8.0
-email-validator>=2.0.0
-aiofiles==25.1.0
-aiohttp==3.9.1
-beautifulsoup4==4.14.2
-chardet==5.2.0
-fastapi==0.122.0
-fitz==0.0.1.dev2
-ijson==3.2.3
-lxml==5.1.0
-matplotlib==3.8.2
-numpy==2.3.5
-openai==2.8.1
-openpyxl==3.1.2
-pandas==2.3.3
-Pillow==12.0.0
-playwright==1.41.0
-pydantic==2.12.5
-pydantic_settings==2.12.0
-pytesseract==0.3.10
-python_docx==1.2.0
-PyYAML==6.0.3
-structlog==25.5.0
-tenacity==8.2.3
+black
+flake8
+mypy
+email-validator
+aiofiles
+aiohttp
+beautifulsoup
+chardet
+fastapi
+fitz
+ijson
+lxml
+matplotlib
+numpy
+openai
+openpyxl
+pandas
+Pillow
+playwright
+pydantic
+pydantic_settings
+pytesseract
+python_docx
+PyYAML
+structlog
+tenacity
